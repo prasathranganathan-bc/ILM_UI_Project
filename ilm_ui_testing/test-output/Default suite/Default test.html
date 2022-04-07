@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 04 14:28:36 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>1358 seconds (1358819 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier needs to contact the support team to make the changes in the registered Company details", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>7</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit a suppliers service lines on Research studio", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>66</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Cateogry admin can able to View countersigned framework agreement in the Supplier account page", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to make changes to the registered Company details like company address trading status company size", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>25</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to edit Company Contact details", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>7</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Admin Data Controller can able to edit a suppliers registered company details", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>29</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit a Supplier name in the Supplier account page", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>15</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit the Service line details for Cloud Software", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>262</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit the Service line details for Cloud Support", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>191</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Cateogry admin can able to View agreements in the Supplier account page", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to edit the Service line details for Cloud Software", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>69</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin cannot able to make changes to the registered Company details DUNS Number", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>11</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit a suppliers service lines on User research participants", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>37</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Cateogry admin can able to download the countersigned framework agreement in the Supplier account page", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>5</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Admin Data Controller cannot able to edit a suppliers registered company details of DUNS Number", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to edit the Service line details for Cloud Hosting", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>68</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit a suppliers service lines on Digital Outcomes", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>49</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier should not be able to see the opportunities link on the admin page", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Admin Data Controller can able to edit a suppliers registered company", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>29</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin cannot able to make changes to the registered Company details", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>10</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Cateogry admin can able to View agreements in the Supplier account page", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier needs to contact the support team to make the changes in the registered Company details", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>7</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit a Supplier name in the Supplier account page", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>17</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Admin Data Controller cannot able to edit a suppliers registered company details", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Supplier cannot able to make changes to the registered Company details of Registered Company Name", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to edit the Service line details for Cloud Support", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>64</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Cateogry admin can able to download the countersigned framework agreement in the Supplier account page", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>5</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to add new document in service", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Cateogry admin can able to View countersigned framework agreement in the Supplier account page", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier should not be able to see the opportunities link on the admin page", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to edit Company Contact details", "Optional[DOS6 - ILM UI Stories]"</td>
+<td></td>
+<td>9</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Supplier cannot able to make changes to the registered Company details of Registered Company Name", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier needs to make a request via the cloud digital email address", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>9</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier can able to make changes to the registered Company details like company address trading status company size", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>25</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Category admin can able to edit the Service line details for Cloud Hosting", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>295</td>
+<td>Runner.Runner@c05fddc</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the supplier edited changes are displays in CCS Category Admin dashboard", "Optional[G-Cloud13 - ILM UI Stories]"</td>
+<td></td>
+<td>6</td>
+<td>Runner.Runner@c05fddc</td></tr>
+</table><p>
+</body>
+</html>
